@@ -1,0 +1,47 @@
+.second-section{
+    display: flex;
+    justify-content: space-evenly;
+}
+.second-section .container{
+    display: flex;
+    align-items: center;
+   
+
+}
+.second-section-content-logo{
+    margin-top: 150px;
+    display: flex;
+    margin-right: 183px;
+    gap:20px;
+}
+
+.second-section-content-logo h1{
+    font-size: 22px;
+    color:white;
+    font-weight: bold;
+    text-align: left;
+    font-family: 'Oswaldo',sans-serif;
+    width: 300px;
+    text-transform: uppercase;
+    line-height: 38px;
+    letter-spacing: 2.2px;
+}
+.second-section-content-logo img{
+    margin-right: 50px;
+}
+
+
+.text-section-section p{
+    text-align: left;
+    width:650px;
+    color:white;
+    font-family: 'Fira Sans',sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    margin-right: 200px;
+    
+}
+
+.text-section-section p span{
+    color:var(--light-green);
+}

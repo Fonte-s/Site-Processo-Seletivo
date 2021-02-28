@@ -1,0 +1,148 @@
+.four-section{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+
+.container-four-section{
+    display: flex;
+    color:white;
+    align-items:center;
+    justify-content: space-between;
+    gap:90px;
+}
+
+.container-four-section :first-child{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left:180px;
+   
+       
+}
+.container-four-section article h2{
+    display: flex;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    word-spacing: 10px;
+    text-transform: uppercase;
+
+     
+    
+
+}
+.container-four-section article p{
+    margin-left: 180px;
+    max-width: 500px;
+    font-family: 'Fira Sans';
+    font-weight: 400;
+    line-height: 25px;
+    font-size: 16px;
+   
+
+}
+
+
+.year-money{
+    display: flex;
+    flex-direction: column;
+ justify-content: start;
+   align-items: flex-end;
+    max-height: 800px;
+   
+}
+
+.year-money h1{
+    margin-top: 60px;
+    font-weight:700;
+    font-family: 'Oswald';
+    line-height: 38,88px;
+    margin-right: 370px;
+    max-width: 600px;
+    font-size: 25px;
+    letter-spacing: 10%;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+   
+}
+
+.year-money div{
+    display: flex;
+   align-items: left;
+   justify-content: center;
+    color:var(--light-green);
+    
+}
+
+.year{
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    
+    
+    
+    
+    
+}
+.year span{
+
+    margin-top: 42px;
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    font-family: 'Oswaldo',sans-serif;
+    font-weight: 700;
+  
+    
+    
+}
+
+.money{
+   display:flex;
+   flex-direction: column;
+   align-items: flex-end;
+   margin-top: 70px;
+   margin-right:200px;
+   max-width: 400px;
+   gap:55px;
+
+
+}
+.money div :first-child{
+    white-space: nowrap;
+}
+.money div{
+
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 100px;
+    margin-bottom: 10px;
+   
+   
+}
+
+.money div p{
+    
+    font-family: 'Fira sans';
+    font-weight: 400px;
+    font-size: 15px;
+    line-height: 27px;
+    display: flex;
+    text-align: left;
+    color:white;
+}
+
+.money span{
+
+text-align: left;
+font-family: 'Oswald';
+font-weight: 700;
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 2px;
+}

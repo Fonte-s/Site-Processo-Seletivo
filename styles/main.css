@@ -12,14 +12,14 @@
     box-sizing: border-box;
     text-decoration: none;
     font-size: 15px;
+    
 
 }
 
 hmtl, body{
     
     width: auto;
-    
-    height: 11609px;
+    max-height: 11609px;
   
 }
 
@@ -27,5 +27,35 @@ p{
     font-family: 'Fira Sans';
 }
 
+.first-section{
+    background-image: url('./../../img/First-windown/Fundo.png' );
+    height: 11%;
+    width: auto;
+    background-size: cover;
+    margin-bottom: 400px;
+    display: flex;
+    flex-direction: column;
+    
+    
+
+ }
+
+ .second-section{
+
+    background-image: url('../img/Second-windown/Barra.png');
+    height: 50vh;
+    width: auto;
+   
+ }
+
+ .third-section{
+     background-color: white;
+     height: 399px;
+ }
+
+ .four-section{
+     background: url('../img/Four-windown/fundo-4.png');
+     height: 818px;
+ }
 
 

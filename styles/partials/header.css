@@ -1,7 +1,41 @@
  
- .first-section{
-    background-image: url('./../../img/First-windown/Frame 1.png' );
-    height: 100%;
-    width: 100%;
-background-size: cover;
+
+ header{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     
+     
+
  }
+
+ .logo{
+    
+     margin-left: 109px;
+     margin-top:17px;
+ }
+ .options {
+     
+     display: flex;
+     gap: 50px;
+     margin-right: 45px;
+     align-items: center;
+     cursor: pointer;
+
+ }
+
+ header .options :first-child{
+    cursor:pointer;
+    transition: ease-in;
+
+ }
+ header .options :first-child:hover{
+    filter:brightness(0.9);
+    transform: scale(1.10, 1.10);
+}
+
+ 
+
+ 
+
+ 
